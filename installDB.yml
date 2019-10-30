@@ -1,5 +1,5 @@
 - name: Install oracle db
-  hosts: All
+  #hosts: All
   remote_user: root
   become: true
  # become_user: oracle
