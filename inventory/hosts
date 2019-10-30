@@ -8,12 +8,9 @@
 #   - You can enter hostnames or ip addresses
 #   - A hostname/ip can be a member of multiple groups
 
-[mh-OracleDB1]
-10.10.120.20
+mh-OracleDB1,techlab.com
 
-#[mh-OracleDB2]
-#10.10.120.21
 
 [dbservers]
-10.10.120.20
-#10.10.120.21
+mh-OracleDB1,techlab.com`
+
