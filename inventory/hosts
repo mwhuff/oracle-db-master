@@ -8,10 +8,7 @@
 #   - You can enter hostnames or ip addresses
 #   - A hostname/ip can be a member of multiple groups
 
-10.10.120.20
-
 
 [dbservers]
-10.10.120.20
-mh-OracleDB1.techlab.com
+mh-OracleDB1.techlab.com ansible_host=10.10.120.20
 
