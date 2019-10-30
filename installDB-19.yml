@@ -1,0 +1,10 @@
+- name: Install oracle db
+  hosts: all
+
+  roles:
+    - role: roles
+      oracle_version: 19
+      patch_version: 19.3.0.0
+      transport_local: /tmp
+      oracle_images:
+       - LINUX.X64_193000_db_home.zip 

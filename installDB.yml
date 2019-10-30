@@ -1,0 +1,20 @@
+- name: Install oracle db
+  hosts: dbservers
+  remote_user: root
+  become: true
+ # become_user: oracle
+ # become: true
+
+  roles:
+    - role: roles
+      oracle_version: 12
+      patch_version: 12.2.0.1
+      transport: "local" 
+      #transport: "web" 
+      #transport_web: http://10.10.120.20
+      transport_local: /tmp 
+      #become_user: oracle
+      #become: true
+      oracle_images:
+        - linuxamd64_12102_database_1of2.zip
+        - linuxamd64_12102_database_2of2.zip
