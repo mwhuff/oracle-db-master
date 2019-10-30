@@ -16,7 +16,7 @@ oracle_images:
   - linuxamd64_12102_database_1of2.zip
   - linuxamd64_12102_database_2of2.zip
 
-oracle_base: /opt/oracledb
+oracle_base: /u01/app/oracle/oracledb
 unqname: orcl
 sid: orcl
 
