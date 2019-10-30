@@ -6,7 +6,7 @@
  # become: true
 
   roles:
-    - role: roles
+    - role: oracle-db-master
       oracle_version: 12
       patch_version: 12.1.0.2
       transport: "local" 
