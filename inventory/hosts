@@ -12,5 +12,6 @@
 
 
 [dbservers]
-mh-OracleDB1.techlab.com=10.10.120.20
+10.10.120.20
+mh-OracleDB1.techlab.com
 
