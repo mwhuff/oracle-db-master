@@ -7,7 +7,7 @@ oracledb:
   user: oracle
   install_group: oinstall
   dba_group: dba
-  install_directory: /opt/install/oracledb
+  install_directory: /u01/app/install/oracledb
   rsp_template: 'db.rsp.{{ oracle_version }}'
   oracle_home: '{{ oracle_base }}/product/{{ patch_version }}/db_1'
   filesystemstorage: '{{ oracle_base }}/oradata'
