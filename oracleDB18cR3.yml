@@ -2,8 +2,6 @@
   hosts: all
   remote_user: root
   become: true
- # become_user: oracle
- # become: true
 
   roles:
     - role: /var/lib/awx/projects/_49__oracledb18cr3
