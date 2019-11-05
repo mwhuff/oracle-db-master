@@ -1,7 +1,8 @@
 ---
 # defaults file for oracle-db
 
-transport: web
+#transport: web
+transport: local
 # local
 # web
 
@@ -9,12 +10,15 @@ transport_web: http://my-storage.example.com
 
 trasnport_local: /tmp
 
-oracle_version: 12
-patch_version: 12.1.0.2
+#oracle_version: 12
+#patch_version: 12.1.0.2
+oracle_version: 18
+patch_version: 18.0.0.0
 
 oracle_images:
-  - linuxamd64_12102_database_1of2.zip
-  - linuxamd64_12102_database_2of2.zip
+  #- linuxamd64_12102_database_1of2.zip
+  #- linuxamd64_12102_database_2of2.zip
+  - LINUX.X64_180000_db_home.zip
 
 oracle_base: /u01/app/oracle/oracledb
 unqname: orcl
