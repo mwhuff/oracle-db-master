@@ -4,7 +4,7 @@
   become: true
 
   roles:
-    - role: /var/lib/awx/projects/_51__oracledb18c_deploy
+    - role: /var/lib/awx/projects/_53__oracledb_18c_deploy
       oracle_version: 18
       patch_version: 18.0.0.0
       transport: "local" 
