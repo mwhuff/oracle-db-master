@@ -8,7 +8,7 @@
   roles:
     - role: /var/lib/awx/projects/_46__oracledb12c_deploy
       oracle_version: 18
-      patch_version: 18.0.0.0
+      patch_version: 18.3.0.0
       transport: "local" 
       #transport: "web" 
       #transport_web: http://10.10.120.21
