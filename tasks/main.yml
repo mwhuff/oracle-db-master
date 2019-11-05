@@ -34,9 +34,13 @@
       include_tasks: oracle-db-11-12.yml
       when: oracle_version == 11 or oracle_version == 12
 
-    - name: Oracle DB 18 or 19 install
-      include_tasks: oracle-db-18-19.yml
-      when: oracle_version == 18 or oracle_version == 19
+    - name: Oracle DB 18 install
+      include_tasks: oracle-db-18.yml
+      when: oracle_version == 18
+
+   - name: Oracle DB 19 install
+      include_tasks: oracle-db-19.yml
+      when: oracle_version == 19
 
     - name: Postinstall actions
       include_tasks: system/postinstall.yml
