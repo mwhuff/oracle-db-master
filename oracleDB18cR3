@@ -6,7 +6,7 @@
  # become: true
 
   roles:
-    - role: /var/lib/awx/projects/_46__oracledb12c_deploy
+    - role: /var/lib/awx/projects/_49__oracledb18cr3
       oracle_version: 18
       patch_version: 18.3.0.0
       transport: "local" 
