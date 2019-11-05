@@ -1,0 +1,17 @@
+- name: Install oracle db
+  hosts: all
+  remote_user: root
+  become: true
+ # become_user: oracle
+ # become: true
+
+  roles:
+    - role: /var/lib/awx/projects/_46__oracledb12c_deploy
+      oracle_version: 18
+      patch_version: 18.0.0.0
+      transport: "local" 
+      #transport: "web" 
+      #transport_web: http://10.10.120.21
+      transport_local: /tmp 
+      oracle_images:
+        - LINUX.X64_180000_db_home.zip
