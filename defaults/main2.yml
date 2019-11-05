@@ -7,7 +7,7 @@ transport: local
 
 transport_web: http://my-storage.example.com
 
-trasnport_local: /tmp
+transport_local: /tmp
 
 oracle_version: 18
 patch_version: 18.3.0.0
