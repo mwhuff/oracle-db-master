@@ -16,7 +16,7 @@ oracle_images:
   - LINUX.X64_180000_db_home.zip
 
 
-oracle_base: /u02/app/oracle/oracledb
+oracle_base: /u02/app/oracle/oracledb1
 unqname: orcl1
 sid: orcl1
 
