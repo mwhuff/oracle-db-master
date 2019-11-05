@@ -9,7 +9,7 @@
   block:
 
     - name: Choose vars based on oracle version
-      include_vars: '{{ version }}'
+      include_vars: '{{ oracle_version }}'
       with_first_found:
         - 'oracle{{ oracle_version }}.yml'
         - not-supported.yml
