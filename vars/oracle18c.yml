@@ -3,7 +3,7 @@
 oracle_default_tablespace_size: 200M
 oracle_temp_tablespace_size: 100M
 
-oracledb:
+oracledb1:
   user: oracle
   install_group: oinstall
   dba_group: dba
